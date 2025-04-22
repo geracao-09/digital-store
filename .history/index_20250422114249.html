@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Store</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="/assets/digital-logo.svg" type="image/x-icon">
+</head>
+<body>
+<header class="flex flex-col gap-12 px-[108px] py-[38px]">
+    <div class="flex items-center justify-between">
+        <div class="flex gap-1">
+            <img src="/assets/digital-logo.svg" alt="Logo da Digital Store">
+            <h1 class="text-4xl text-(--primary-color) font-semibold">Digital Store</h1>
+        </div>
+        <input type="text" placeholder="Pesquisar produto..." class="bg-(--light-gray-3) py-2 px-3 rounded-lg ml-40 mr-14 bg-[url(/assets/search.svg)] bg-no-repeat bg-right focus:placeholder-transparent w-[560px]" />
+        <div>
+            <a href="#" class="bg-(--primary-color) text-white rounded-lg px-7 py-3 font-bold text-sm">
+                Entrar
+            </a>
+        </div>
+        <div class="relative">
+            <img src="/assets/cart.svg" alt="Imagem de um carrinho de compras">
+            <div class="flex justify-center items-center absolute bg-(--tertiary-color) text-white font-bold text-xs rounded-full w-[18px] h-[18px] bottom-[15px] left-3">
+                2
+            </div>
+        </div>
+    </div>
+    </div>
+    <nav class="pl-32">
+        <ul class="flex gap-6 text-(--dark-gray-2)">
+            <li class="hover:text-(--primary-color) hover:font-bold">
+                <a href="#">
+                Home
+            </a>
+        </li>
+            <li class="hover:text-(--primary-color) hover:font-bold">
+                <a href="#">
+                Produtos
+            </a>
+        </li>
+            <li class="hover:text-(--primary-color) hover:font-bold">
+                <a href="#">
+                Categorias
+            </a>
+        </li>
+            <li class="hover:text-(--primary-color) hover:font-bold">
+                <a href="#">
+                Meus Pedidos
+            </a>
+        </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="px-[108px] bg-(--light-gray-3) py-[78px]">
+        <div>
+            <p class="text-(--warning-color)">
+                Melhores ofertas personalizadas
+            </p>
+            <h2>
+                Queima de estoque Nike 🔥
+            </h2>
+            <p class="text-(--dark-gray-2)">
+                Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
+            </p>
+            <a href="#">
+                Ver Ofertas
+            </a>
+        </div>
+    </section>
+</main>
+</body>
+</html>

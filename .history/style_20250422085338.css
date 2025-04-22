@@ -1,0 +1,17 @@
+:root {
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+    --primary-color: #C92071;
+    --secondary-color: #B5B6F2;
+    --tertiary-color: #991956;
+    --error-color: #EE4266;
+    --success-color: #52CA76;
+    --warning-color: #F6AA1C;
+    --primary-gradient: 90degb#C92071, #EDABCA);
+
+}
