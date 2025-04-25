@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Store</title>
     <link href="./style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="shortcut icon" href="/assets/digital-logo.svg" type="image/x-icon">
 </head>
-<body class="max-sm:overflow-hidden w-full">
+<body>
 <header class="flex flex-col gap-12 px-[108px] py-[38px] max-sm:flex-row max-sm:p-5">
     <div class="flex items-center justify-between max-sm:w-full">
         <div>
@@ -23,7 +24,7 @@
                 Entrar
             </a>
         </div>
-        <img src="/assets/icons/search.svg" alt="Imagem de lupa" class="hidden absolute right-14 max-sm:block">
+        <img src="/assets/icons/search.svg" alt="Imagem de lupa" class="max-sm::">
         <div class="relative">
             <img src="/assets/icons/cart.svg" alt="Imagem de um carrinho de compras" class="max-sm:fill-(--primary-color)">
             <div class="flex justify-center items-center absolute bg-(--tertiary-color) text-white font-bold text-xs rounded-full w-[18px] h-[18px] bottom-[15px] left-3">
@@ -58,8 +59,8 @@
     </nav>
 </header>
 <main>
-    <section class="flex px-[108px] bg-(--light-gray-3) py-[78px] h-[680px] relative max-sm:p-0">
-        <div class="flex flex-col gap-5 w-[466px] max-sm:justify-end max-sm:items-center">
+    <section class="flex px-[108px] bg-(--light-gray-3) py-[78px] h-[680px] relative">
+        <div class="flex flex-col gap-5 w-[466px]">
             <p class="text-(--warning-color) font-bold">
                 Melhores ofertas personalizadas
             </p>
@@ -73,8 +74,8 @@
                 Ver Ofertas
             </a>
         </div>
-        <img src="/assets/pictures/white-sneakers.svg" alt="Foto de um tenis branco" class="absolute right-28 bottom-8 max-sm:bottom-0 max-sm:right-6.5 max-sm:top-2"/>
-        <img src="/assets/ornaments/ornament.svg" alt="Firula do site - by wendell" class="absolute top-12 right-8 max-sm:top-4 max-sm:left-[80%]">
+        <img src="/assets/pictures/white-sneakers.svg" alt="Foto de um tenis branco" class="absolute right-28 bottom-8"/>
+        <img src="/assets/ornaments/ornament.svg" alt="Firula do site - by wendell" class="absolute top-12 right-8">
     </section>
     <section class="flex flex-col gap-15 px-[108px] py-[42px]">
         <div class="flex flex-col gap-10">
@@ -391,6 +392,5 @@
         <p class="text-sm">@ 2022 Digital College</p>
     </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
 </html>

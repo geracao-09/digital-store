@@ -5,34 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Store</title>
     <link href="./style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="shortcut icon" href="/assets/digital-logo.svg" type="image/x-icon">
 </head>
-<body class="max-sm:overflow-hidden w-full">
-<header class="flex flex-col gap-12 px-[108px] py-[38px] max-sm:flex-row max-sm:p-5">
-    <div class="flex items-center justify-between max-sm:w-full">
-        <div>
-            <img src="/assets/ornaments/menu-hamburguer.svg" alt="foto de um menu hamburguer" class="hidden max-sm:block">
-        </div>
+<body>
+<header class="flex flex-col gap-12 px-[108px] py-[38px]">
+    <div class="flex items-center justify-between">
         <div class="flex gap-1">
             <img src="/assets/digital-logo.svg" alt="Logo da Digital Store">
-            <h1 class="text-4xl text-(--primary-color) font-semibold max-sm:text-xl">Digital Store</h1>
+            <h1 class="text-4xl text-(--primary-color) font-semibold">Digital Store</h1>
         </div>
-        <input type="text" placeholder="Pesquisar produto..." class="bg-(--light-gray-3) py-2 px-3 rounded-lg ml-40 mr-14 bg-[url(/assets/icons/search.svg)] bg-no-repeat bg-right focus:placeholder-transparent w-[560px] max-sm:hidden" />
-        <div class="max-sm:hidden">
+        <input type="text" placeholder="Pesquisar produto..." class="bg-(--light-gray-3) py-2 px-3 rounded-lg ml-40 mr-14 bg-[url(/assets/icons/search.svg)] bg-no-repeat bg-right focus:placeholder-transparent w-[560px]" />
+        <div>
             <a href="#" class="bg-(--primary-color) text-white rounded-lg px-7 py-3 font-bold text-sm">
                 Entrar
             </a>
         </div>
-        <img src="/assets/icons/search.svg" alt="Imagem de lupa" class="hidden absolute right-14 max-sm:block">
         <div class="relative">
-            <img src="/assets/icons/cart.svg" alt="Imagem de um carrinho de compras" class="max-sm:fill-(--primary-color)">
+            <img src="/assets/icons/cart.svg" alt="Imagem de um carrinho de compras">
             <div class="flex justify-center items-center absolute bg-(--tertiary-color) text-white font-bold text-xs rounded-full w-[18px] h-[18px] bottom-[15px] left-3">
                 2
             </div>
         </div>
     </div>
     </div>
-    <nav class="pl-32 max-sm:hidden">
+    <nav class="pl-32">
         <ul class="flex gap-6 text-(--dark-gray-2)">
             <li class="hover:text-(--primary-color) hover:font-bold">
                 <a href="#">
@@ -58,8 +55,8 @@
     </nav>
 </header>
 <main>
-    <section class="flex px-[108px] bg-(--light-gray-3) py-[78px] h-[680px] relative max-sm:p-0">
-        <div class="flex flex-col gap-5 w-[466px] max-sm:justify-end max-sm:items-center">
+    <section class="flex px-[108px] bg-(--light-gray-3) py-[78px] h-[680px] relative">
+        <div class="flex flex-col gap-5 w-[466px]">
             <p class="text-(--warning-color) font-bold">
                 Melhores ofertas personalizadas
             </p>
@@ -73,8 +70,8 @@
                 Ver Ofertas
             </a>
         </div>
-        <img src="/assets/pictures/white-sneakers.svg" alt="Foto de um tenis branco" class="absolute right-28 bottom-8 max-sm:bottom-0 max-sm:right-6.5 max-sm:top-2"/>
-        <img src="/assets/ornaments/ornament.svg" alt="Firula do site - by wendell" class="absolute top-12 right-8 max-sm:top-4 max-sm:left-[80%]">
+        <img src="/assets/pictures/white-sneakers.svg" alt="Foto de um tenis branco" class="absolute right-28 bottom-8"/>
+        <img src="/assets/ornaments/ornament.svg" alt="Firula do site - by wendell" class="absolute top-12 right-8">
     </section>
     <section class="flex flex-col gap-15 px-[108px] py-[42px]">
         <div class="flex flex-col gap-10">
@@ -321,7 +318,7 @@
         </div>
     </section>
 </main>
-<footer class="bg-black text-white pt-20 pb-4 px-28 flex flex-col">
+<footer class="bg-black text-white py-20 px-28 flex flex=col gap-5">
     <div class="flex gap-32">
         <div  class="flex flex-col gap-10">
             <div class="flex gap-2">
@@ -386,11 +383,10 @@
             <p>(85) 3051-3411</p>
         </div>
     </div>
-    <hr class="opacity-30 mt-15 mb-5">
-    <div class="text-center">
-        <p class="text-sm">@ 2022 Digital College</p>
+    <hr>
+    <div>
+
     </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
 </html>
